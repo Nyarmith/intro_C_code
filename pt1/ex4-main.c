@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int space_function(int in){
-    while (in>0){
-        printf("SPACE\n"); in--;
-    }
-    return 420;
+int space_function(int in);
+
+int main(){
+    printf("Calling external function\n");
+    space_function(2);
+    return 0;
 }
