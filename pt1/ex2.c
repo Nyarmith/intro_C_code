@@ -5,6 +5,7 @@ void printstr(char* in, int i){
     printf("argument %d :  %s\n", i, in);
 }
 
+// prints what you input to it
 int main(int argc, char** argv){
     int i=0;
     while (i<argc){

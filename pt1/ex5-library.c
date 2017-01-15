@@ -10,8 +10,8 @@
 
 static char* ENTRANCE_STATEMENT = "welcome... to discworld\n"; //restrict scpoe to this file
 
-extern DISC_HEIGHT;
-extern DISC_WIDTH;
+extern int DISC_HEIGHT;
+extern int DISC_WIDTH;
 
 //helper functions
 static float axis_x(float x); //static limits their visibility to this file during compliation, in-case an extern function with the same name is declared
