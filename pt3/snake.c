@@ -151,7 +151,7 @@ int main(){
         draw_treat();
         refresh();
 
-		usleep(DELAY);  //u = mu = sleep for microseconds
+	usleep(DELAY);  //u = mu = sleep for microseconds
 
 	}
     endwin();
